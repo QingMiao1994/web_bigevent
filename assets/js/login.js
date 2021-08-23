@@ -53,6 +53,7 @@ $(function () {
                 if (res.status !== 0) {
                     return layer.msg('登陆失败!');
                 }
+                // console.log(res);
                 layer.msg('登陆成功!');
                 // 把token保存到本地
                 //token：用于有权限接口的身份认证

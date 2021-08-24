@@ -34,8 +34,9 @@ function getUserInfo() {
         //     Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYwMiwidXNlcm5hbWUiOiJhbHp5Iiwibmlja25hbWUiOiIiLCJlbWFpbCI6IiIsImlhdCI6MTYyOTcxNTM2OCwiZXhwIjoxNjI5NzUxMzY4fQ.z2tJoVSz9cFdLv5_rqQDHE-GyJvIFkddDjGyZz7kWn0"
         // },
         success: function (res) {
-            console.log(res);
+            // console.log(res);
             if (res.status !== 0) {
+                // console.log(res);
                 return layui.layer.msg('获取用户信息失败！')
             }
             // 调用renderAvatar渲染用户的头像

@@ -1,0 +1,29 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f3f5;
+    padding: 15px;
+}
+.layui-form{
+    width: 500px;
+}
+.layui-card-header{
+    /* css3 弹性布局 */
+    display: flex;
+    /* 容器属性 justify-content
+        flex-start（默认值）：左对齐
+        flex-end：右对齐
+        center： 居中
+        space-between：两端对齐，项目之间的间隔都相等。
+        space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
+    */
+    justify-content:space-between;
+    align-items: center;
+}
+#form-aadd,#form-edit{
+    padding-top: 20px;
+    padding-right: 30px;
+
+}
